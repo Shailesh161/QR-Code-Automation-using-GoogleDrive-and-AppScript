@@ -1,0 +1,21 @@
+🔹 Steps to Add Trigger
+
+Open your Apps Script project.
+
+Click on Triggers (left sidebar → clock icon).
+
+Click “+ Add Trigger”.
+
+Configure as follows:
+
+Choose function to run → generateQRCodes
+
+Deployment → Head
+
+Event source → Time-driven
+
+Type of time based trigger → Minute timer
+
+Select minute interval → Every 1 minute (or 5 minutes if you prefer)
+
+Save the trigger.
